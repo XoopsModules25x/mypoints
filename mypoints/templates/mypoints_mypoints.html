@@ -1,0 +1,36 @@
+<table border='0' cellspacing='1' cellpadding ='3' align = 'center' width = '100%'>
+<tr>
+  <td>
+    <center>
+      <h4><{$topmessage}></h4>
+      <{$updatemessage}><br />
+      <{$sincemessage}><br /><br />
+    </center>
+
+    <table border='0' cellspacing='1' cellpadding='2' class ='outer' width = 100%>
+       <tr>
+          <th align='left'><{$smarty.const._MA_MYPOINTS_PLUGIN}></th>
+          <th align='center'><{$smarty.const._MA_MYPOINTS_ITEMS}></th>
+          <th align='center'><{$smarty.const._MA_MYPOINTS_MULTI}></th>
+          <th align='right'><{$smarty.const._MA_MYPOINTS_SPOINTS}></th>
+        </tr>
+      <{foreach item = plugin from=$user.plugins}>
+        <tr class="<{cycle values="even,odd"}>">
+          <td align='left'><{$plugin.name}></td>
+          <td align='center'><{$plugin.items}></td>
+          <td align='center'><{$plugin.multi}></td>
+          <td align='right'><{$plugin.points}></td>
+        </tr>
+      <{/foreach}>
+        <tr>
+          <td><strong><{$smarty.const._MA_MYPOINTS_TOTALPOINTS}></strong></td>
+          <td align='right' colspan = '3'><strong><{$user.points}></strong></td>
+        </tr>
+    </table>
+    <br />
+    <b><{$smarty.const._MA_MYPOINTS_HOWEARNPOINTS}></b>
+    <br />
+    <{$howtoearnmessage}>
+  </td>
+</tr>
+</table>

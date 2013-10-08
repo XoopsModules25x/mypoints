@@ -1,0 +1,46 @@
+<table border='0' cellspacing='1' cellpadding ='3' align = 'center' width = '100%'>
+<tr>
+  <td>
+    <center>
+      <h4><{$topmessage}></h4>
+      <{$updatemessage}><br />
+      <{$sincemessage}><br /><br />
+    </center>
+
+    <table border='0' cellspacing='1' cellpadding='2' class ='outer' width = 100%>
+      <tr>
+        <td align='center' class = 'itemHead'><b><{$smarty.const._MA_MYPOINTS_RANK}></b></td>
+        <td align='center' class = 'itemHead'><b><{$smarty.const._MA_MYPOINTS_MEMBER}></b></td>
+
+        <{if $plugins}>
+          <{foreach item = plugin from=$plugins}>
+            <td align='center' class = 'itemHead'><b><{$plugin.pluginname}></b></td>
+          <{/foreach}>
+        <{/if}>
+
+        <td align='center' class = 'itemHead'><b><{$smarty.const._MA_MYPOINTS_TOTALPOINTS}></b></td>
+      </tr>
+
+      <{foreach item = user from=$users}>
+        <tr>
+          <td align='center' class = 'head'><{$user.rank}></td>
+          <td align='center' class = 'even'><{$user.link}></td>
+          <{foreach item = plugin from=$user.pluginpoints}>
+            <td align='center' class = 'even'><{$plugin}></td>
+          <{/foreach}>
+          <td align='center' class = 'even'><b><{$user.points}></b></td>
+        </tr>
+      <{/foreach}>
+      
+    </table>
+    <br />
+
+    <center><{$detailslink}></center>
+    <br />
+    <br />
+    <b><{$smarty.const._MA_MYPOINTS_HOWEARNPOINTS}></b>
+    <br />
+    <{$howtoearnmessage}>
+  </td>
+</tr>
+</table>
