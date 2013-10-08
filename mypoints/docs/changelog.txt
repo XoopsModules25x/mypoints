@@ -1,0 +1,16 @@
+<b><u>=> Version 1.01 (2013-04-30)</u></b>
+- Converted to XOOPS 2.5.5 Admin GUI (mamba)
+
+<b><u>=> Version 1.0 (2009-11-14)</u></b>
+- Xoops 2.4 compatible only
+
+<b><u>=> Version 1.0 RC (2009-06-05)</u></b>
+- Fixed : Points were not auto updating
+- Added : Plugin for publisher module
+
+<b><u>=> Version 1.0 Beta (2008-10-11)</u></b>
+- Added : Templates
+- Added : mypoints.php
+
+<b><u>=> Version 1.0 Alpha (2008-06-11)</u></b>
+- First public release of the module.
