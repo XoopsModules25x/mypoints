@@ -26,5 +26,3 @@ mypoints_adminmenu(2);
 $aboutObj = new MypointsAbout();
 $aboutObj->render();
 xoops_cp_footer();
-
-?>

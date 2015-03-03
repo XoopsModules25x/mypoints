@@ -55,7 +55,6 @@ if ($refreshtime < 60) {
 $xoopsTpl->assign('updatemessage', sprintf(_MA_MYPOINTS_UPDATEMESSAGE, $refreshtimes, $message));
 $xoopsTpl->assign('sincemessage', sprintf(_MA_MYPOINTS_SINCEMESSAGE, formatTimeStamp($since, "m", $xoopsConfig['server_TZ'])));
 
-
 $criteria = new CriteriaCompo(new Criteria('pluginisactive', 1));
 //$criteria->add(new Criteria('plugintype', 'items'), 'AND');
 $criteria->setSort('pluginmulti');
@@ -116,4 +115,3 @@ $xoopsTpl->assign('howtoearnmessage', $message);
 mypoints_updatePoints();
 
 include_once XOOPS_ROOT_PATH . '/footer.php';
-?>

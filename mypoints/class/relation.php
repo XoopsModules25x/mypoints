@@ -60,7 +60,7 @@ class MypointsRelationHandler extends XoopsPersistableObjectHandler
             $relation = new MypointsRelation();
             $relation->assignVars($this->db->fetchArray($result));
         }
+
         return $relation;
     }
 }
-?>

@@ -18,4 +18,3 @@ define("_AM_MYPOINTS_INACTIVE","Inactive");
 define("_AM_MYPOINTS_MULTI","Multiply by");
 define("_AM_MYPOINTS_GO","Save and Update");
 define("_AM_MYPOINTS_DONE","Done!");
-?>

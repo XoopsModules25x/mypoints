@@ -18,7 +18,7 @@
  * @version         $Id: about.php 0 2009-11-14 18:47:04Z trabis $
  */
 if (!defined('XOOPS_ROOT_PATH')) {
-	die('XOOPS root path not defined');
+    die('XOOPS root path not defined');
 }
 $modversion['name'] = _MI_MYPOINTS_NAME;
 $modversion['version'] = "1.01";
@@ -131,7 +131,6 @@ $modversion['config'][$i]['formtype'] = 'textbox';
 $modversion['config'][$i]['valuetype'] = 'text';
 $modversion['config'][$i]['default'] =  date("Y-m-d", time());
 
-
 // About stuff
 $modversion['status_version'] = "Final";
 $modversion['developer_website_url'] = "http://www.xuups.com";
@@ -155,4 +154,4 @@ $modversion['submit_feature'] = "http://www.xuups.com/modules/newbb/viewforum.ph
 
 //$modversion['author_word'] = "";
 //$modversion['warning'] = "";
-?>
+;

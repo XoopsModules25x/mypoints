@@ -157,4 +157,3 @@ function mypoints_updatePoints($force = 0)
         }
     }
 }
-?>
