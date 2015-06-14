@@ -76,6 +76,7 @@ class MypointsAbout
     function sanitize($value)
     {
         $myts =& MyTextSanitizer::getInstance();
+
         return $myts->displayTarea($value, 1);
     }
 
@@ -146,5 +147,3 @@ class MypointsAbout
         $this->_tpl->display('db:mypoints_about.html');
     }
 }
-
-?>

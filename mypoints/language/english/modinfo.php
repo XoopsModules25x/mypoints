@@ -31,4 +31,3 @@ define("_MI_MYPOINTS_COUNTADMIN_DSC","Do you want to show admins in the top list
 
 define("_MI_MYPOINTS_COUNTSINCE","Count since");
 define("_MI_MYPOINTS_COUNTSINCE_DSC","Count points since this date.");
-?>

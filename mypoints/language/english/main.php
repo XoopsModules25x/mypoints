@@ -34,4 +34,3 @@ define('_MA_MYPOINTS_SSUBMISSION','%s Submission');
 define('_MA_MYPOINTS_LPOINT','point');
 define('_MA_MYPOINTS_LPOINTS','points');
 define('_MA_MYPOINTS_SPOINTS','Points');
-?>

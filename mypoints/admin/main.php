@@ -203,5 +203,3 @@ switch ($choice) {
         mypoints_index();
         break;
 }
-
-?>

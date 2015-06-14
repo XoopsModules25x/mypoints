@@ -22,4 +22,3 @@ define('_AB_MYPOINTS_PEOPLE_DOCUMENTERS', 'Documenters');
 define('_AB_MYPOINTS_PEOPLE_TRANSLATERS', 'Translaters');
 define('_AB_MYPOINTS_PEOPLE_OTHER', 'Other contributors');
 define('_AB_MYPOINTS_VERSION_HISTORY', 'Version History');
-?>

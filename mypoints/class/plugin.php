@@ -63,7 +63,7 @@ class MypointspluginHandler extends XoopsPersistableObjectHandler
                 $plugin->assignVars($this->db->fetchArray($result));
             }
         }
+
         return $plugin;
     }
 }
-?>
