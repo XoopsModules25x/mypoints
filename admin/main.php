@@ -150,7 +150,7 @@ function mypoints_update_plugins()
                 $criteria = new CriteriaCompo(new Criteria('pluginmid', $moduleid));
                 $criteria->add(new Criteria('plugintype', 'items'), 'AND');
                 $criteria->setLimit(1);
-                $plugins =& $plugin_handler->getObjects($criteria);
+                $plugins = $plugin_handler->getObjects($criteria);
                 unset($criteria);
                 $plugin = !empty($plugins) ? $plugins[0] : $plugin_handler->create();
                 $plugin->setVar('plugintype', 'items');
